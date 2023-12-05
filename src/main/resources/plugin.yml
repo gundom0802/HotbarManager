@@ -1,0 +1,4 @@
+name: HotbarLock
+version: '${version}'
+main: hotbarlock.hotbarlock.HotbarLock
+api-version: '1.20'
