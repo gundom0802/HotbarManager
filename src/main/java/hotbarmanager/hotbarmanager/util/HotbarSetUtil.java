@@ -1,4 +1,4 @@
-package hotbarlock.hotbarlock.util;
+package hotbarmanager.hotbarmanager.util;
 
 import java.util.HashSet;
 import java.util.Set;

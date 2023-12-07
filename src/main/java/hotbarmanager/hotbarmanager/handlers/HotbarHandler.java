@@ -1,22 +1,19 @@
-package hotbarlock.hotbarlock.handlers;
+package hotbarmanager.hotbarmanager.handlers;
 
-import hotbarlock.hotbarlock.HotbarLock;
-import hotbarlock.hotbarlock.util.HotbarSetUtil;
+import hotbarmanager.hotbarmanager.HotbarManager;
+import hotbarmanager.hotbarmanager.util.HotbarSetUtil;
 import org.bukkit.Bukkit;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityDropItemEvent;
 import org.bukkit.event.entity.EntityPickupItemEvent;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.event.inventory.InventoryAction;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
-import org.bukkit.inventory.ItemStack;
 
 public class HotbarHandler implements Listener {
-	public HotbarHandler(HotbarLock plugin) {
+	public HotbarHandler(HotbarManager plugin) {
 		Bukkit.getPluginManager().registerEvents(this, plugin);
 	}
 

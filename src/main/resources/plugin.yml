@@ -1,4 +1,9 @@
-name: HotbarLock
+name: HotbarManager
 version: '${version}'
-main: hotbarlock.hotbarlock.HotbarLock
+main: hotbarmanager.hotbarmanager.HotbarManager
 api-version: '1.20'
+commands:
+  hotbar:
+    description: "main command for hotbar"
+    usage: "/hotbarenable <action> <player>"
+    aliases: [hb]

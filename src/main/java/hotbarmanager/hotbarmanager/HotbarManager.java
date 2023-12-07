@@ -1,14 +1,15 @@
-package hotbarlock.hotbarlock;
+package hotbarmanager.hotbarmanager;
 
-import hotbarlock.hotbarlock.commands.HotbarCommand;
-import hotbarlock.hotbarlock.handlers.HotbarHandler;
+import hotbarmanager.hotbarmanager.commands.HotbarCommand;
+import hotbarmanager.hotbarmanager.handlers.HotbarHandler;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class HotbarLock extends JavaPlugin {
+public final class HotbarManager extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("hotbar").setExecutor(new HotbarCommand());
+
+        getCommand("hotbar").setExecutor(new HotbarCommand(this));
 
         new HotbarHandler(this);
     }
