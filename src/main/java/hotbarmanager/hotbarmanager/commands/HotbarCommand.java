@@ -40,8 +40,8 @@ public class HotbarCommand implements CommandExecutor {
 			return true;
 		}
 
-		PersistentDataContainer data = target.getPersistentDataContainer();
-		NamespacedKey key = new NamespacedKey(plugin, "hotbaritems");
+		final PersistentDataContainer data = target.getPersistentDataContainer();
+		final NamespacedKey key = new NamespacedKey(plugin, "hotbaritems");
 
 		switch (args[0]) {
 			case "lock":
