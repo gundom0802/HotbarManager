@@ -1,8 +1,9 @@
 package hotbarmanager.hotbarmanager.util;
 
+import com.google.common.io.ByteStreams;
 import com.google.common.io.ByteArrayDataInput;
 import com.google.common.io.ByteArrayDataOutput;
-import com.google.common.io.ByteStreams;
+
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 

@@ -1,18 +1,20 @@
 package hotbarmanager.hotbarmanager.commands;
 
 import hotbarmanager.hotbarmanager.HotbarManager;
-import hotbarmanager.hotbarmanager.util.HotbarSaveUtil;
 import hotbarmanager.hotbarmanager.util.HotbarSetUtil;
+import hotbarmanager.hotbarmanager.util.HotbarSaveUtil;
+
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.NamespacedKey;
 import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
-import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.persistence.PersistentDataContainer;
-import org.bukkit.persistence.PersistentDataType;
+import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.persistence.PersistentDataType;
+import org.bukkit.persistence.PersistentDataContainer;
+
 import java.util.ArrayList;
 import java.util.List;
 

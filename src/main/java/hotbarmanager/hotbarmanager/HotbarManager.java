@@ -1,8 +1,8 @@
 package hotbarmanager.hotbarmanager;
 
+import org.bukkit.plugin.java.JavaPlugin;
 import hotbarmanager.hotbarmanager.commands.HotbarCommand;
 import hotbarmanager.hotbarmanager.handlers.HotbarHandler;
-import org.bukkit.plugin.java.JavaPlugin;
 
 public final class HotbarManager extends JavaPlugin {
 

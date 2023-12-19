@@ -1,8 +1,8 @@
 package hotbarmanager.hotbarmanager.util;
 
-import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
+import java.util.HashSet;
 
 public class HotbarSetUtil {
 	public final static Set<UUID> HOTBARLOCK_PLAYERS = new HashSet<UUID>();
